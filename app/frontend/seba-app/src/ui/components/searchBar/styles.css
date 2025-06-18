@@ -1,0 +1,23 @@
+.search-bar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 20px;
+  width: 100%;
+  word-wrap: "break-word";
+}
+
+.search-input {
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 25px;
+  width: 100%;
+  max-width: 700px;
+
+  background-image: url("../../../resources/images/search.png");
+  background-size: 20px 20px; /* Adjust size of the logo */
+  background-position: 10px center; /* Position the logo */
+  background-repeat: no-repeat; /* Prevent logo from repeating */
+  padding-left: 40px;
+}

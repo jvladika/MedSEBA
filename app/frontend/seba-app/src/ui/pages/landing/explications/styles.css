@@ -1,0 +1,50 @@
+.explication-container {
+  width: 323px;
+  height: 350px;
+  border-radius: 20px 120px 20px 80px;
+  border: 2px solid #1E58EB;
+  margin-right: 60px;
+  color: var(--color-black);
+  text-align: justify;
+
+}
+
+.explication-wrapper {
+  padding-left: 50px;
+  padding-top: 47px;
+  padding-right: 49px;
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+
+}
+
+.title-card {
+  font-family: var(--font-outfit);
+  font-weight: var(--font-outfit-weight-bold);
+  font-size: var(--font-sizes-large);
+  color: var(--color-black);
+  display: flex;
+  justify-content: flex-start;
+  margin-top: 14px;
+  margin-bottom: 24px;
+}
+
+.description-card {
+  font-family: var(--font-outfit);
+  font-weight: var(--font-outfit-weight-regular);
+  font-size: var(--font-sizes-small);
+  color: var(--color-black);
+  display: flex;
+  justify-content: flex-start;
+  text-align: justify;
+}
+
+.explication-container .description-card .description-text,
+.explication-container p {
+  color: var(--color-black);
+  text-align: left;
+
+}
+
+

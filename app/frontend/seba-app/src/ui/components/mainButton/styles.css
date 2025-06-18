@@ -1,0 +1,13 @@
+.btn-container {
+  padding: 10px 20px;
+  display: inline-block;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.btn-text {
+  font-family: var(--font-roboto);
+  font-weight: var(--font-roboto-weight-regular);
+  color: var(--color-white);
+  transition: color 0.3s;
+}

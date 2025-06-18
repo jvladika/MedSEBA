@@ -1,0 +1,28 @@
+# Python-related
+*.pyc
+__pycache__/
+*.log
+logs/
+*.pyo
+*.pyd
+
+# Virtual environment
+sebaenv/
+sebaenv2/
+sebaenv3/
+venv/
+env/
+myenv/
+
+# Frontend-related
+node_modules/
+npm-debug.log
+yarn-error.log
+
+# IDE and OS specific
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+.DS_Store?
+._*

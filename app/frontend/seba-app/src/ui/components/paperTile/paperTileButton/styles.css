@@ -1,0 +1,22 @@
+.paper-tile-button-container {
+  display: flex;
+  align-items: center;
+}
+.paper-tile-button-container-text {
+  font-size: medium;
+  font-family: var(--font-roboto);
+  font-weight: var(--font-roboto-weight-medium);
+  margin-left: 7px;
+  margin-right: 25px;
+}
+.tooltip {
+  position: absolute;
+
+  background-color: rgba(0, 0, 0, 0.8);
+  color: var(--color-white);
+  padding: 7px 10px;
+  font-size: small;
+  font-family: var(--font-roboto);
+  border-radius: 4px;
+  transform: translate(20%, -110%);
+}

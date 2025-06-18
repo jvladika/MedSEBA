@@ -1,0 +1,100 @@
+
+.title {
+  font-family: var(--font-outfit);
+  font-weight: var(--font-outfit-weight-bold);
+  color: var(--color-black);
+  font-size: var(--font-sizes-xx-large);
+  margin-top: 50px;
+  padding-right: 175px;
+  padding-left: 175px;
+}
+
+.faq-header{
+  font-family: var(--font-outfit);
+  font-weight: var(--font-roboto-weight-regular);
+  color: rgb(0, 0, 0);
+  margin-top: 10px;
+  font-size: 40px;
+  padding: 20px;
+}
+
+.faq-sub-header{
+  font-family: var(--font-outfit);
+  font-weight: var(--font-roboto-weight-regular);
+  color: rgb(154, 154, 154);
+  margin-top: px;
+  margin-bottom: 10px;
+  font-size: 20px;
+  padding: 20px;
+}
+
+.faq-content {
+  font-family: var(--font-outfit);
+  font-weight: var(--font-roboto-weight-regular);
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 50px;
+  width: 70%;
+  align-items: center;
+}
+
+.faq-question {
+  padding: 20px 20px;
+  margin-left: auto;
+  margin-right: auto;
+  border-bottom: 1px dotted #ccc;
+  display: flex;
+  flex-direction: column; /* Display children in a column layout */
+}
+
+.panel-title {
+  font-size: 24px;
+  width: 100%;
+  position: relative;
+  margin: auto;
+  padding: 10px 10px 0 48px;
+  display: flex;
+  cursor: pointer;
+  align-items: center; /* Align items horizontally */
+}
+
+.panel-content {
+  color: var(--color-black);
+  font-size: 20px;
+  color: rgb(154, 154, 154);
+  padding: 10px 10px 0 48px;
+  margin-right: auto;
+  margin-left: 35px;
+  height: 0;
+  width: 100%;
+  overflow: hidden;
+  opacity: 0;
+  transition: height 0.4s ease, opacity 0.4s ease;
+}
+
+.panel:checked ~ .panel-content{
+  height: auto;
+  opacity: 1;
+  padding: 14px;
+}
+
+.plus {
+  position: absolute;
+  display: inline-block;
+  margin-right: 20px;
+  margin-left: -28px;
+  margin-top: 0px;
+  z-index: 5;
+  font-size: 42px;
+  line-height: 100%;
+  user-select: none;
+  transition: .2s ease;
+}
+
+.panel:checked + .panel-title .plus {
+  transform: rotate(45deg); /* Rotate for the minus sign */
+}
+
+.panel {
+  display: none;
+}

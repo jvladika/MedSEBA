@@ -1,0 +1,33 @@
+.sort-container {
+  position: absolute;
+  right: -260px;
+  top: 0;
+  width: 300px;
+  z-index: 100;
+  padding: 20px 40px;
+}
+
+.sort-title {
+  font-family: var(--font-roboto);
+  font-size: var(--font-sizes-regular);
+  color: var(--color-dark-gray);
+  font-size: small;
+  margin-left: 20px;
+  margin-bottom: 5px;
+}
+
+.sort-label {
+  font-family: var(--font-roboto);
+  font-size: var(--font-sizes-regular);
+  color: var(--color-dark-gray);
+  font-size: small;
+  margin-left: 20px;
+}
+
+.MuiSwitch-colorPrimary.Mui-checked {
+  color: #90caf9;
+}
+
+.MuiSwitch-colorPrimary.Mui-checked + .MuiSwitch-track {
+  background-color: #90caf9;
+}

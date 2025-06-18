@@ -1,0 +1,29 @@
+.header-container {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  padding-top: 24px;
+  align-items: center;
+}
+.logo-text {
+  color: var(--color-white);
+  font-size: 2vh;
+  font-family: var(--font-roboto);
+  font-weight: var(--font-roboto-weight-bold);
+  margin-left: 10px;
+  font-size: 16px;
+}
+
+.logo-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: black;
+}
+
+.btns-container {
+  display: flex;
+  align-items: center;
+  background-color: black;
+
+}

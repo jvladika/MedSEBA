@@ -1,0 +1,119 @@
+.MuiPaper-root.MuiCard-root {
+  margin-bottom: 24px;
+  padding-top: 15px;
+  padding-left: 15px;
+  padding-right: 15px;
+  background-color: white;
+  text-align: left;
+  border-radius: 20px;
+}
+
+.MuiPaper-root.MuiCard-root .MuiTypography-h6 {
+  color: var(--color-black) ;
+  margin-bottom: 16px;
+}
+
+.MuiPaper-root.MuiCard-root .MuiTypography-body1 {
+  color: #ebebeb;
+  word-spacing: 2px;
+}
+
+.MuiPaper-root.MuiCard-root .MuiDivider-root {
+  background-color: #ebebeb;
+  margin: 16px;
+}
+
+.MuiPaper-root.MuiCard-root .MuiChip-root {
+  background-color: #ebebeb;
+  margin-top: 15px;
+  margin-right: 10px;
+}
+
+.MuiPaper-root.MuiCard-root .MuiButton-root {
+  text-transform: none;
+}
+
+.paper-tile-container {
+  /* background-color: var(--color-black); */
+  background-color: #666;
+  padding: 40px;
+  margin-bottom: 40px;
+  border-radius: 20px;
+}
+.paper-tile-title {
+  font-family: var(--font-outfit);
+  font-weight: var(--font-roboto-weight-medium);
+  color: var(--color-white);
+  margin-left: 20px;
+  font-size: medium;
+  text-align: left;
+}
+
+.paper-tile-abstract-container {
+  margin-top: 40px;
+  background-color: #0000;
+  padding: 20px;
+  margin-bottom: 40px;
+  border-radius: 10px;
+}
+.paper-tile-abstract-text {
+  font-family: var(--font-roboto);
+  text-align: left;
+  font-size: small;
+  color: var(--color-darkGray);
+  line-height: 1.6;
+}
+
+.paper-tile-resource-text {
+  text-align: left;
+  font-size: small;
+  font-family: var(--font-roboto);
+  color: var(--color-gray);
+  font-weight: var(--font-roboto-weight-normal);
+  margin-bottom: 20px;
+}
+
+hr {
+  border-color: var(--color-light-gray);
+  border-style: solid;
+  margin-bottom: 20px;
+}
+
+.feedback-container {
+  padding: 7px 10px;
+  border-radius: 10px;
+  margin-right: 5px;
+}
+
+.consensus-container {
+  padding: 5px 20px;
+  border-radius: 20px;
+  font-weight: var(--font-roboto-weight-medium);
+  text-align: center;
+}
+
+.text-with-ellipsis {
+  font-family: var(--font-outfit);
+  font-size: 16px;
+  color: var(--color-gray);
+}
+
+.toggle-button {
+  font-family: var(--font-outfit);
+  color: var(--color-white);
+  background-color: var(--color-mainColor);
+}
+.context-before,
+.context-after {
+  color: #666;
+}
+
+.relevant-sentence {
+  font-style: italic;
+  font-weight: 500;
+  margin: 0 4px;
+}
+
+.paper-tile-abstract-text {
+  line-height: 1.5;
+}
