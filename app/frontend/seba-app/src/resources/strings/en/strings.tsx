@@ -1,6 +1,6 @@
 //Contains all string in english
 export const strings_EN = {
-  appName: "SEBAnswers",
+  appName: "MedSEBA",
   // signUp: "Sign Up",
   // signIn: "Sign In",
   titleLanding: "Ask Medical Questions. Get AI-Synthesized Answers.",
@@ -20,7 +20,7 @@ export const strings_EN = {
   findResponses: "Find Responses to Your Medical Queries",
   quisqueCondimentum: "What we Offer",
   curabiturPulvinar:
-    "Discover smart, concise insights with SEBAnswers! Find the articles that most relate to your hypothesis. Get a first overview by inspecting the AI-generated summary, or the tailored agreement predictions - or directly jump to the highlighted most impotant sentence in each publication. And of course, access all of your past searches at any time, in the menu bar.",
+    "Discover smart, concise insights with MedSEBA! Find the articles that most relate to your hypothesis. Get a first overview by inspecting the AI-generated summary, or the tailored agreement predictions - or directly jump to the highlighted most impotant sentence in each publication. And of course, access all of your past searches at any time, in the menu bar.",
   universityName: "Technical University of Munich",
   contactEmail: "seba.answers@tum.de",
   copyrightsInfo:

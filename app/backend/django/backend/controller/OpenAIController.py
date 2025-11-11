@@ -12,7 +12,7 @@ load_dotenv()
 
 def genericCompletion(
         messages: dict,
-        model: str = "gpt-3.5-turbo-1106"
+        model: str = "gpt-5-chat-latest"
     ):
     """
     A function to pass on any generic promt to the chat completion endpoint.
@@ -94,4 +94,4 @@ def summarize(request: HttpRequest):
         return HttpResponse(json.dumps({'summary': response}), content_type="application/json")
 
     except Exception as e:
-        return HttpResponse(json.dumps(({'error': f'Error calling OpenAI GPT-3.5-turbo: {str(e)}'})), content_type="application/json")
+        return HttpResponse(json.dumps(({'error': f'Error calling OpenAI GPT: {str(e)}'})), content_type="application/json")

@@ -76,7 +76,7 @@ const Navbar = () => {
               fill: "white",
             }}
           />
-          SEBAnswers
+          MedSEBA
         </Button>
         <Box sx={{ flexGrow: 1 }} />
 

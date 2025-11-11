@@ -18,13 +18,13 @@ import os
 from asgiref.sync import async_to_sync
             
 async def genericCompletion(messages: list) -> str: #TODO
-    client = AsyncOpenAI(api_key="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")
+    client = AsyncOpenAI(api_key="INSERT_API_KEY")
     try:
         response = await client.chat.completions.create(
-            model="gpt-4o",
+            model="gpt-5-chat-latest",
             messages=messages,
             temperature=0.5,
-            max_tokens=800
+            max_tokens=900
         )
         return response.choices[0].message.content
     except Exception as e:

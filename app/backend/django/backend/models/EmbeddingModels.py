@@ -28,6 +28,11 @@ class AbstractEmbeddingModel(ABC):
           # Scale from [-1, 1] to [0, 1]
           similarity = (similarity + 1) / 2
       return similarity
+  
+class bmRetriever(AbstractEmbeddingModel):
+    def __init__(self):
+        self.model = SentenceTransformer("BMRetriever/BMRetriever-410M")
+        self.identifier : str = "BMRetriever/BMRetriever-410M"
 
 class sPubMedBERT(AbstractEmbeddingModel):
     def __init__(self):

@@ -111,7 +111,7 @@ WSGI_APPLICATION = 'seba.wsgi.application'
 #connect('SEBA',host="mongodb+srv://sebanswers:JCTw858fh2VqYItH@cluster0.t30v05l.mongodb.net/")
 #connect('SEBA', host="mongodb://localhost:27017/SEBA")
 
-
+''' 
 DATABASES = {
     'default': {  # Leave this blank, we do not want a 'default' database defined, as we connect to it manually above.
         'ENGINE': 'django.db.backends.postgresql',
@@ -122,6 +122,20 @@ DATABASES = {
         'PORT': '44453',
     }    
 }
+'''
+
+DATABASES = {
+    'default': {
+        'ENGINE': 'django.db.backends.postgresql',
+        'NAME': 'sebanswers_db', # The name you chose in step 2
+        'USER': 'jvladika',      # Or 'myuser' if you created one
+        'PASSWORD': '',          # Or 'mypassword' if you set one
+        'HOST': 'localhost',     # Or '127.0.0.1'
+        'PORT': '',              # Leave blank to use the default port (5432)
+    }
+}
+
+
 #PGPASSWORD=ewRMVbAvzsujSCKovRDqKRxJPkkGlBxQ psql -h tramway.proxy.rlwy.net -U postgres -p 44453 -d railway
 
 # Password validation
